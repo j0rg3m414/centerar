@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.7" method="upgrade">
+  <name>DatsoGallery</name>
+  <creationDate>17.12.2011</creationDate>
+  <author>Andrey Datso</author>
+  <copyright>Copyright (C) 2006-2011 Andrey Datso. All rights reserved.</copyright>
+  <authorEmail>admin@datso.fr</authorEmail>
+  <authorUrl>www.datso.fr</authorUrl>
+  <version>1.14</version>
+  <license>GPL Commercial License</license>
+  <description>COM_DATSOGALLERY_XML_DESCRIPTION</description>
+  	<installfile>install.datsogallery.php</installfile>
+	<uninstallfile>uninstall.datsogallery.php</uninstallfile>
+	<install>
+		<sql folder="admin">
+			<file charset="utf8" driver="mysql">install.datsogallery.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql folder="admin">
+			<file charset="utf8" driver="mysql">uninstall.datsogallery.sql</file>
+		</sql>
+	</uninstall>
+    <files folder="site">
+        <folder>css</folder>
+        <folder>fonts</folder>
+		<folder>images</folder>
+        <folder>includes</folder>
+		<folder>libraries</folder>
+        <folder>views</folder>
+		<file>datso.functions.php</file>
+		<file>datsogallery.php</file>
+		<file>router.php</file>
+        <file>index.html</file>
+	</files>
+    <languages folder="site">
+        <language tag="en-GB">language/en-GB.com_datsogallery.ini</language>
+        <language tag="ru-RU">language/ru-RU.com_datsogallery.ini</language>
+    </languages>
+    <administration>
+    <menu img="components/com_datsogallery/images/dg-logo-icon.png">COM_DATSOGALLERY</menu>
+		<submenu>
+			<menu img="components/com_datsogallery/images/dg-images-icon.png" link="option=com_datsogallery">COM_DATSOGALLERY_PICTURES</menu>
+			<menu img="components/com_datsogallery/images/dg-categories-icon.png" link="option=com_datsogallery&amp;task=showcatg">COM_DATSOGALLERY_CATEGORIES</menu>
+			<menu img="components/com_datsogallery/images/dg-comments-icon.png" link="option=com_datsogallery&amp;task=comments">COM_DATSOGALLERY_COMMENTS</menu>
+            <menu img="components/com_datsogallery/images/dg-blacklist-icon.png" link="option=com_datsogallery&amp;task=blacklist">COM_DATSOGALLERY_BLACKLIST</menu>
+            <menu img="components/com_datsogallery/images/dg-standart-upload-icon.png" link="option=com_datsogallery&amp;task=showupload">COM_DATSOGALLERY_UPLOAD</menu>
+            <menu img="components/com_datsogallery/images/dg-package-import-icon.png" link="option=com_datsogallery&amp;task=batchimport">COM_DATSOGALLERY_IMPORT</menu>
+            <menu img="components/com_datsogallery/images/dg-configuration-icon.png" link="option=com_datsogallery&amp;task=settings">COM_DATSOGALLERY_CONFIGURATION</menu>
+            <menu img="components/com_datsogallery/images/dg-reset-votes-icon.png" link="option=com_datsogallery&amp;task=resetvotes">COM_DATSOGALLERY_VOTES</menu>
+            <menu img="components/com_datsogallery/images/transactions.png" link="option=com_datsogallery&amp;task=transactions">COM_DATSOGALLERY_TRANSACTIONS</menu>
+		</submenu>
+        <files folder="admin">
+	    	<folder>css</folder>
+			<folder>images</folder>
+            <folder>includes</folder>
+            <folder>js</folder>
+			<file>admin.datsogallery.html.php</file>
+            <file>admin.datsogallery.php</file>
+            <file>class.datsogallery.php</file>
+            <file>config.datsogallery.bak</file>
+            <file>images.datsogallery.php</file>
+			<file>install.datsogallery.sql</file>
+			<file>uninstall.datsogallery.sql</file>
+            <file>update.php</file>
+            <file>index.html</file>
+	    </files>
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB.com_datsogallery.ini</language>
+            <language tag="en-GB">language/en-GB.com_datsogallery.sys.ini</language>
+            <language tag="ru-RU">language/ru-RU.com_datsogallery.ini</language>
+            <language tag="ru-RU">language/ru-RU.com_datsogallery.sys.ini</language>
+		</languages>
+    </administration>
+</extension>

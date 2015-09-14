@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS `#__datsogallery`;
+DROP TABLE IF EXISTS `#__datsogallery_basket`;
+DROP TABLE IF EXISTS `#__datsogallery_blacklist`;
+DROP TABLE IF EXISTS `#__datsogallery_catg`;
+DROP TABLE IF EXISTS `#__datsogallery_comments`;
+DROP TABLE IF EXISTS `#__datsogallery_downloads`;
+DROP TABLE IF EXISTS `#__datsogallery_favorites`;
+DROP TABLE IF EXISTS `#__datsogallery_hits`;
+DROP TABLE IF EXISTS `#__datsogallery_purchases`;
+DROP TABLE IF EXISTS `#__datsogallery_tags`;
+DROP TABLE IF EXISTS `#__datsogallery_votes`;
+DELETE FROM `#__menu` WHERE link='index.php?option=com_datsogallery&view=datsogallery';

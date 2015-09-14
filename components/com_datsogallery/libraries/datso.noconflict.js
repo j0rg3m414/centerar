@@ -1,0 +1,1 @@
+var datso = jQuery.noConflict();

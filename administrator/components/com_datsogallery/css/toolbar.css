@@ -1,0 +1,38 @@
+.adminform{background:#FCFCFC;color:#696969;font:normal 11px "Segoe UI",Arial,sans-serif;margin:8px;padding:20px;text-shadow:1px 1px 1px #FFFFFF;}
+.adminform input{padding:4px;}
+.adminform legend{color:#4682B4;font-size:16px;font-weight:normal;}
+.adminform select{padding:3px;}
+.icon-32-dg-add{background:url(../images/dg-add.png) no-repeat center;}
+.icon-32-dg-approve{background:url(../images/dg-approve.png) no-repeat center;}
+.icon-32-dg-delete{background:url(../images/dg-delete.png) no-repeat center;}
+.icon-32-dg-edit{background:url(../images/dg-edit.png) no-repeat center;}
+.icon-32-dg-hide{background:url(../images/dg-hide.png) no-repeat center;}
+.icon-32-dg-move{background:url(../images/dg-move.png) no-repeat center;}
+.icon-32-dg-show{background:url(../images/dg-show.png) no-repeat center;}
+.icon-32-dg-save{background:url(../images/dg-save.png) no-repeat center;}
+.icon-32-dg-cancel{background:url(../images/dg-cancel.png) no-repeat center;}
+.icon-32-dg-back{background:url(../images/dg-back.png) no-repeat center;}
+.icon-48-tb-addcategory{background:url(../images/tb-addcategory.png) no-repeat left;}
+.icon-48-tb-batchimport{background:url(../images/tb-batchimport.png) no-repeat left;}
+.icon-48-tb-batchupload{background:url(../images/tb-batchupload.png) no-repeat left;}
+.icon-48-tb-blacklist{background:url(../images/tb-blacklist.png) no-repeat left;}
+.icon-48-tb-categories{background:url(../images/tb-categories.png) no-repeat left;}
+.icon-48-tb-comments{background:url(../images/tb-comments.png) no-repeat left;}
+.icon-48-tb-config{background:url(../images/tb-config.png) no-repeat left;}
+.icon-48-tb-editcategory{background:url(../images/tb-editcategory.png) no-repeat left;}
+.icon-48-tb-editimage{background:url(../images/tb-editimage.png) no-repeat left;}
+.icon-48-tb-images{background:url(../images/tb-images.png) no-repeat left;}
+.icon-48-tb-move{background:url(../images/tb-move.png) no-repeat left;}
+.icon-48-tb-newimage{background:url(../images/tb-newimage.png) no-repeat left;}
+.icon-48-tb-resetvotes{background:url(../images/tb-resetvotes.png) no-repeat left;}
+.icon-48-tb-transactions {background: url(../images/tb-transactions.png) no-repeat left;}
+fieldset.adminform input,fieldset.adminform textarea,fieldset.adminform select,fieldset.adminform img,fieldset.adminform button{-moz-border-radius:3px;border-radius:3px;float:none;font-size:11px;margin:0;width:auto;}
+#dgConfig .current select,#dgConfig .current input{-moz-border-radius:3px;border-radius:3px;float:none;margin:3px 4px 0 3px;}
+#dgConfig div{background:#F5F5F5;font-family:"Segoe UI",Arial,sans-serif;}
+#dgConfig dl.tabs dt{-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;filter: dropshadow(color=#ffffff, offx=1, offy=1);font:normal 12px "Segoe UI",Arial,sans-serif;text-shadow:1px 1px 1px #ffffff;}
+#dgConfig dl.tabs dt.open{background:#F5F5F5;border-bottom:1px;border-bottom-color:#F5F5F5;border-bottom-style:solid;}
+#dgConfig dl.tabs dt.open span{color:#4682B4;}
+#dgConfig fieldset.radio input{float:left;}
+#dgConfig fieldset.radio img{float:left;padding:1px;}
+#dgConfig fieldset.radio label{clear:none;float:left;font:11px "Segoe UI",Arial,sans-serif;margin:3px 0 0 5px;min-width:20px;}
+iframe.dg_wmframe {border:0;width:400px; height:180px;}

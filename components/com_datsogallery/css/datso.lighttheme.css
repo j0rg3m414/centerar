@@ -1,0 +1,504 @@
+/*#datso .datso_pgn a{
+border:solid 1px #D0D0D0;
+background-color:#E0E0E0
+}
+
+#datso .datso_pgn .pagination-start,
+#datso .datso_pgn .pagination-prev,
+#datso .datso_pgn .pagination-next,
+#datso .datso_pgn .pagination-end{
+color:#666666
+}
+
+#datso .pagenav{
+color:#D6D6D6;
+text-shadow:0 1px 0 #565656;
+border:solid 1px transparent;
+background-color:#666666;
+}
+
+#datso .datso_pgn a:link,
+#datso .datso_pgn a:visited{
+color:#666666;
+text-shadow:0 1px 0 #FFFFFF
+}
+
+#datso .datso_pgn a:hover,
+#datso .datso_pgn a:focus{
+text-shadow:0 1px 0 #565656;
+border:solid 1px #666666;
+background-color:#565656;
+color: #D6D6D6 !important
+}*/
+
+.dg_head_background {
+  background-color: #E1E1E1;
+  border: 1px solid #DCDCDC;
+  color: #666666;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.dg_head_background_tags {
+  background-color: #E1E1E1;
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+  border-bottom: 1px solid #FFFFFF;
+  color: #666666;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.addtag_loading {
+  display: inline-block;
+  background: url(../images/lighttheme/hloading.gif) no-repeat center;
+  width: 10px;
+  height: 10px;
+}
+
+.dg_head_background_tags input {
+  border-color:#D3D3D3;
+  padding: 2px 0 3px 2px
+}
+
+/*.dg_head_background span {
+  color: #89A848;
+}*/
+
+.dg_head_background a,
+.dg_head_background a:visited,
+.dg_head_background a span,
+.dg_head_background a:visited span {
+  color: #89A848;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.dg_head_background a:hover,
+.dg_head_background a:hover span {
+  color: #FFFFFF;
+}
+
+.grid_border {
+  border-left:1px solid #F0F0F0;
+}
+
+#dg_body_background_basket,
+.dg_body_background_comment,
+.dg_body_background_details {
+  background-color: #F9F9F9;
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+  /*border-bottom: 1px solid #FFFFFF;*/
+  color: #666666;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#dg_body_background_basket div {
+  background-color: #F9F9F9;
+  color: #666666;
+}
+
+.dg_body_background_upload {
+  background-color: #F9F9F9;
+  border: 1px solid #DCDCDC;
+  color: #666666;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.dg_body_background_edit_image {
+  background-color: #F9F9F9;
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+  color: #666666;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.dg_body_background_message {
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+  color: #666666;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+ul#list li.dg_body_error_message,
+.dg_tag_error_message {
+  background-color: #FFFFE0;
+  border-bottom: 1px solid #DCDCDC;
+  color: #666666;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+.dg_tag_error_message {
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+}
+
+.dg_header select,
+.dg_header input,
+.dg_body_background_upload select,
+.dg_body_background_upload input,
+.dg_body_background_upload textarea,
+.dg_body_background_edit_image select,
+.dg_body_background_edit_image input,
+.dg_body_background_edit_image textarea,
+.dg_head_background select,
+.dg_body_background_comment input,
+.dg_body_background_recomend input,
+.dg_body_background_comment textarea,
+.dg_header select:hover,
+.dg_header input:hover,
+.dg_body_background_edit_image select:hover,
+.dg_body_background_edit_image input:hover,
+.dg_body_background_edit_image textarea:hover,
+.dg_head_background select:hover,
+.dg_body_background_comment input:hover,
+.dg_body_background_recomend input:hover,
+.dg_body_background_comment textarea:hover {
+  background-color: #FCFCFC;
+  border: 1px solid #DCDCDC;
+  color: #666666;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.dg_header select:focus,
+.dg_header input:focus,
+.dg_body_background_upload select:focus,
+.dg_body_background_upload input:focus,
+.dg_body_background_upload textarea:focus,
+.dg_body_background_edit_image select:focus,
+.dg_body_background_edit_image input:focus,
+.dg_body_background_edit_image textarea:focus,
+.dg_head_background input:focus,
+.dg_head_background select:focus,
+.dg_body_background_recomend input:focus,
+.dg_body_background_comment input:focus,
+.dg_body_background_comment textarea:focus,
+.dg_body_background_description textarea:focus,
+ul#list li textarea:focus {
+  background-color: #FFFFE0;
+  border: 1px solid #DCDCDC;
+  color: #000000;
+}
+
+.dg_body_background_description,
+.dg_body_background,
+.dg_body_background_recomend,
+.dg_body_background_tags {
+  background-color: #F9F9F9;
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+  color: #666666;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#dg_body_background_basket,
+#dg_body_background_basket_checkout {
+  color: #F0F8FF;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+td .dg_body_background_td {
+  background-color: #F5F5F5;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+td .dg_body_background_td:hover {
+  background-color: #FCFCFC;
+  /*color: #E1E1E1; */
+}
+
+.dg_body_background_td a span {
+  font-size: 11px;
+  /*color: #89A848;*/
+}
+
+.dg_body_background_td a:hover span {
+  color: #666666;
+}
+
+#dg_body_background_basket_checkout {
+  background-color: #F9F9F9;
+  border: 1px solid #DCDCDC;
+}
+
+.dg_body_background_basket_subtotal {
+  background: #FFFFE0;
+  border-left: 1px solid #DCDCDC;
+  color: #666666;
+}
+
+.dg_body_background_basket_subtotal span#total {
+  color: #89A848;
+}
+
+div.grippie {
+  background: #DCDCDC url(../images/grippie.png) no-repeat scroll center 2px;
+  border: 0pt 1px 1px solid #DCDCDC;
+}
+
+td .submitter {
+  border-left: 1px solid #DCDCDC;
+}
+
+td .bookmarker {
+  border-left: 1px solid #DCDCDC;
+}
+
+ul#list li{
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #DCDCDC;
+  color: #666666;
+}
+
+ul#list li .date {
+  color: #666666;
+}
+
+ul#list li .control {
+  color: #DCDCDC;
+}
+
+ul#list,
+div#nocom {
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+}
+
+.dg-avatar,
+.dgimg {
+  background: #FFFFFF url(../images/lighttheme/loading.gif) no-repeat 50% 50%;
+  border-left: 1px solid #E1E1E1;
+  border-top: 1px solid #EAEAEA;
+  border-right: 1px solid #E1E1E1;
+  border-bottom: 1px solid #DCDCDC;
+  /*-webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;*/
+}
+
+table.dguserpanel {
+  background-color: #F9F9F9;
+  color: #666666;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+
+table.dguserpanel thead th{
+  background-color: #E1E1E1;
+  border: 1px solid #DCDCDC;
+}
+
+table.dguserpanel thead a {
+  font-size: 11px;
+  color: #89A848;
+}
+
+table.dguserpanel tbody tr{
+  background-color: #F9F9F9;
+}
+
+table.dguserpanel tbody tr.row1,
+table.dguserpanel tbody tr.row1 td{
+  background-color: #F9F9F9;
+}
+
+table.dguserpanel tbody tr.row0:hover td,
+table.dguserpanel tbody tr.row1:hover td{
+  background-color: #FFFFCC;
+  /*color: #DCDCDC; */
+}
+
+table.dguserpanel tbody tr td{
+  background-color: #FCFCFC;
+  border: 1px solid #DCDCDC;
+  color: #666666;
+}
+
+table.dguserpanel thead a {
+  color: #89A848;
+}
+
+table.dguserpanel thead a:hover {
+  color: #666666;
+}
+
+table.dguserpanel tbody a {
+  color: #89A848;
+}
+
+table.dguserpanel tbody a:hover {
+  color: #666666;
+}
+
+.dg_basket {
+  background: #FCFCFC;
+  border: 1px solid #DCDCDC;
+}
+
+.dg_basket li#item {
+  color: #89A848;
+}
+
+.dg_basket li#cost {
+  color: #666666;
+}
+
+.plupload_button {
+    /*color: #DCDCDC;*/
+    border: 1px solid #c5c5c5;
+    background: #ddd url(../images/button.png) repeat-x 0 0;
+}
+
+.plupload_button:hover {
+	color: #000;
+    border-color: #B4B4B4;
+    cursor: pointer;
+}
+
+.plupload_disabled,
+.plupload_disabled:hover {
+    color: #DCDCDC;
+    border-color: #c5c5c5;
+    background-color: #ededed;
+}
+
+.plupload_container input {
+	border: 1px solid #DDD;
+}
+
+.plupload_header_content {
+    color: #DCDCDC;
+}
+.plupload_header_title {
+	color: #89A848;
+}
+.plupload_header_text,
+.plupload_file_name,
+.plupload_file_size {
+	color: #666666;
+}
+
+.plupload_scroll .plupload_filelist {
+	background-color: #F5F5F5;
+    border-left: 1px solid #DCDCDC;
+    color: #666666;
+}
+
+.plupload_filelist li {
+	background-color: #FFFFFF;
+}
+
+.plupload_filelist_header,
+.plupload_filelist_footer {
+	background-color: #E1E1E1;
+    border: 1px solid #DCDCDC;
+}
+
+.plupload_filelist_footer {
+  border: none;
+}
+
+.plupload_file_status {
+  color: #565656;
+}
+
+.plupload_file_status span {
+  color: #565656;
+}
+
+.plupload_progress_container {
+	border: 1px solid #B4B4B4;
+	background: #EEF3E2;
+}
+
+.plupload_progress_bar {
+	background: #89A848;
+}
+
+.dg_body_background_message {
+    background: url(../images/lighttheme/dg-info-icon.png) no-repeat scroll 2% center #F9F9F9;
+}
+
+.dg_btn {
+  color: #333;
+}
+
+.dg_btn span {
+  background: #ddd url(../images/button.png) repeat-x 0 0;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #aaa
+}
+
+.dg_btn span span {
+  color: #7C7C7C;
+  text-shadow: 0 1px 0 #FFFFFF;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #aaa
+}
+
+dg_btn.pill-l span span,
+dg_btn.pill-c span span {
+  border-right: 1px solid #bbb
+}
+
+dg_btn.pill-c span {
+  border-left-color: #fff
+}
+
+dg_btn.pill-r span {
+  border-left-color: #fff
+}
+
+.dg_btn:hover span,
+.dg_btn:hover span span,
+.dg_btn:focus span,
+.dg_btn:focus span span {
+  border-color:#CCCCCC !important;
+  color: #909090;
+  text-shadow: 0 1px 0 #FFFFFF
+}
+
+.dg_btn:active span {
+  color: #000
+}
+
+.dg_btn:disabled span {
+  color: #A9A9A9
+}
+
+.dg_btn:focus,
+.dg_btn:active {
+  color: #000
+}
+
+ul.vote-stars-small, ul.vote-stars-small li a:hover, ul.vote-stars-small li.current-rating {
+    background-image: url(../images/lighttheme/star_small.png) !important;
+}
+
+.add_favorite {
+    background: url(../images/lighttheme/add-favorite.png) no-repeat scroll 0 0 transparent;
+}
+
+.add_favorite_hover {
+    background: url(../images/lighttheme/favorite.png) no-repeat scroll 0 0 transparent;
+}
+
+.remove_favorite {
+    background: url(../images/lighttheme/remove-favorite.png) no-repeat scroll 0 0 transparent;
+}
+
+.add_to_basket {
+    background: url(../images/lighttheme/basket_add.png) no-repeat scroll 0 0 transparent;
+}
+
+.gmap_icon {
+    background: url(../images/lighttheme/gmap.png) no-repeat scroll 0 0 transparent;
+}
+
+.add_to_basket_hover {
+    background: url(../images/lighttheme/basket.png) no-repeat scroll 0 0 transparent;
+}
+.remove_from_basket {
+    background: url(../images/lighttheme/basket_delete.png) no-repeat scroll center center transparent;
+}

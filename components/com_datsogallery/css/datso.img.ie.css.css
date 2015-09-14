@@ -1,0 +1,8 @@
+.dgimg {
+padding:4px;
+background:#fff url(../images/loading.gif) no-repeat 50% 50%;
+border-left: 1px solid #e1e1e1;
+border-top: 1px solid #EAEAEA;
+border-right: 1px solid #e1e1e1;
+border-bottom: 1px solid #D3D3D3;
+}

@@ -1,0 +1,11 @@
+.dgimg {
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+padding:4px;
+background:#fff url(../images/loading.gif) no-repeat 50% 50%;
+border-left: 1px solid #e1e1e1;
+border-top: 1px solid #F2F2F2;
+border-right: 1px solid #e1e1e1;
+border-bottom: 1px solid #D3D3D3;
+}
